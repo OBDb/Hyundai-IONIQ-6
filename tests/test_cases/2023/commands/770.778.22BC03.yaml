@@ -1,0 +1,17 @@
+command_id: 770.778.22BC03
+test_cases:
+- expected_values:
+    IONIQ6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDFE20
+    778216200600000AAAA
+- expected_values:
+    IONIQ6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDFE20
+    778216200620000AAAA
+- expected_values:
+    IONIQ6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDFE20
+    77821622A000000AAAA
