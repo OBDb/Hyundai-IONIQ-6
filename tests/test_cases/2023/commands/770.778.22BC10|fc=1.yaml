@@ -1,0 +1,7 @@
+command_id: 770.778.22BC10|fc=1
+test_cases:
+- expected_values:
+    IONIQ6_LIGHTS_CODE: 0
+  response: |-
+    778100B62BC100F280C
+    778211000000000AAAA
