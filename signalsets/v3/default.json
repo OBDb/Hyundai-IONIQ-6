@@ -1,4 +1,5 @@
 { "ecu": [
+    { "hdr": "730", "type": "driverAssistance" },
     { "hdr": "744", "type": "charger" },
     { "hdr": "7A0", "type": "bodyControl" },
     { "hdr": "7C6", "type": "cluster" },
@@ -7,7 +8,7 @@
     { "hdr": "7E4", "type": "battery" }
   ],
   "commands": [
-{ "hdr": "730", "rax": "738", "cmd": {"22": "F010"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "730", "rax": "738", "cmd": {"22": "F010"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "IONIQ6_WHEEL_FR_VSS_HD",           "path": "Movement",    "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 2047,                                 "div": 32,                                                   "unit": "kilometersPerHour"      },                  "name": "Front right wheel speed, high resolution"},
     {"id": "IONIQ6_WHEEL_FL_VSS_HD",           "path": "Movement",    "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 2047,                                 "div": 32,                                                   "unit": "kilometersPerHour"      },                  "name": "Front left wheel speed, high resolution"},
