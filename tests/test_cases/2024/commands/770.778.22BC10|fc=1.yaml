@@ -15,3 +15,8 @@ test_cases:
   response: |-
     778100B62BC100F080C
     7782110F0000000AAAA
+- expected_values:
+    IONIQ6_LIGHTS_CODE: 0
+  response: |-
+    778100B62BC100F280C
+    778211000000000AAAA
